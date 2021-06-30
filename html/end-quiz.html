@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="endContainer"> 
+    <h1 id="finalScore">Final Score: <!--document.getElementById?--> </h1>
+    
+            <form class="endFormContainer">
+                <h2>Enter Your Name to Save Your Score!</h2>
+                <input type="text" name="name" id="username" placeholder="Name">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighSchore(event)">
+                    <a href="/html/scorepage.html" class="btn">Save</a>
+                </button>
+            </form>
+            
+            <a href="/html/quiz.html" class="btn">Play Again</a>
+            <a href="/homepage.html" class="btn">Home</a>
+    </div>
+    
+    
+</body>
+</html>
