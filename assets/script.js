@@ -38,7 +38,7 @@ function loadNextQuestion () {
 	currentQuestion++;
 	if(currentQuestion == 5){
 		nextButton.textContent = 'Finish';
-		window.location.assign("/assets/end-quiz.html");
+		window.location.assign("assets/end-quiz.html");
 	}
 	
 	loadQuestion(currentQuestion);
